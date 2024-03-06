@@ -35,6 +35,8 @@ class ListaProdutosAdapter(
         val inflate = inflater.inflate(R.layout.produto_item, parent, false)
         return ViewHolder(inflate)
 
+        //override fun
+
     }
 
     override fun getItemCount(): Int = produtos.size
